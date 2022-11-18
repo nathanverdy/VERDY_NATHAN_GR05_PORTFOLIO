@@ -1,0 +1,75 @@
+.crea img{display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 80%;
+    height: 80%;
+}
+.communication{
+    width: 100%;
+    height: 100%;
+}
+.jeux{
+    margin: 0;
+    width: 50%;
+    height: 50%;
+}
+
+
+.image3d{display: flex;
+    flex-direction: column;
+    padding: 1%;
+        width: 50%;
+        height: 50%;
+    }
+
+
+
+.carousel-inner img{
+    height: 100%;
+    width: 100%;
+    }
+    
+.carousel-item img{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .carroussel2{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .carroussel1{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .carroussel3{
+        width: 100%;
+        height:100%;
+    }
+    
+
+    .plateforme{
+        width: 50%;
+        height: 50%;
+    }
+
+    .coding{
+        display: flex;
+        align-items: center;
+        margin: 3%;
+        width: 95%;
+        height: 95%;
+    }
+
+    .plateforme img{
+        width: 100%;
+        height: 100%;
+        margin-top: 30%;
+    }
+
+#carouselExampleIndicators{
+    height: 50%;
+}

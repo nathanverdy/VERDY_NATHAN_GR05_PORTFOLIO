@@ -1,0 +1,158 @@
+@import url(componant/imagesize.css);
+@import url(componant/animation.css);
+
+@media (min-width: 320px){
+
+    body{
+        background-color: rgb(86, 86, 86);
+        margin: 0%;
+        font-display: color rgb(67, 67, 67);
+    }
+
+    .menu {display: flex;
+        padding-left: 1%;
+        list-style: none;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        color: aliceblue;
+        width: 100%;
+
+        }  
+
+    .menu li {
+        width: 25%;
+    }
+
+    .liste_axe{
+        padding: 1%;
+        background-color: black;
+    }
+
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    header{
+        background-color: black;
+    }
+
+
+
+    main{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(149,149,149,1) 100%);
+    }
+
+
+    .image3d p {
+        color: aliceblue;
+        font-size: large;
+    }
+    
+
+    h2{
+        padding-left: 2%;
+        color: aliceblue;
+        background-color: rgb(49, 49, 49);
+        border-radius: 2vh;
+        margin-right: auto;
+    }
+
+    h2 p{
+        padding-left: 2%;
+    }
+
+  }
+
+    .menubas {display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: whitesmoke;
+    }
+
+.nav-link_active{
+    color: aliceblue;
+    padding-left: 10vh;
+    padding-right: 20vh;
+}
+
+.nav-link_disabled{
+    color: aliceblue;
+}
+
+.navbar-brand{
+    color: aliceblue;
+}
+
+.perso {
+    display: flex;
+    justify-content: center;
+    scale: 50%;
+}
+
+@media (min-width: 370px){
+
+.perso{
+    display: flex;
+    justify-content: center;
+    scale: 57%;
+}
+
+}
+
+@media (min-width: 420px){
+
+    .perso{
+        display: flex;
+        justify-content: center;
+        scale: 65%;
+    }
+    
+    }
+
+@media (min-width: 760px) {
+    
+    .perso{
+        display: flex;
+        justify-content: center;
+        scale: 113%;
+    }
+    
+}
+
+
+@media (min-width: 1020px) {
+    
+    .perso{
+        display: flex;
+        justify-content: center;
+        scale: 150%;
+    }
+    
+}
+
+@media (min-width: 1430px) {
+    
+    .perso{
+        display: flex;
+        justify-content: center;
+        scale: 205%;
+    }
+    
+}
+
+@media (min-width: 2550px) {
+    
+    .perso{
+        display: flex;
+        justify-content: center;
+        scale: 360%;
+    }
+    
+}
+
+section p {
+    color: aliceblue;
+}

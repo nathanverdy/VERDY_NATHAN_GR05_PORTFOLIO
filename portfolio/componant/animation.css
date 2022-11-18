@@ -1,0 +1,203 @@
+/*slide diorama*/
+
+
+.P1{
+    animation: slideright 10s infinite;
+}
+@keyframes slideright{
+    from{
+        transform: translate(50%);
+
+    }
+    30%{
+        transform: translate(0%);
+    }
+    60%{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(50%);
+    }
+}
+
+
+/*zoom image 3d*/
+
+    .Phover1:hover{ 
+        transition: 1s ease-out 1ms;
+        transform: translate(100%,0%) scale(1.3);
+    }
+    .Phover2:hover{ 
+        transition: 1s ease-out 1ms;
+        transform: translate(100%,0%) scale(1.3);
+    }
+    .Phover3:hover{ 
+        transition: 1s ease-out 1ms;
+        transform: translate(100%,0%) scale(1.3);
+    }
+
+
+/*animation voiture*/
+
+.car{
+        animation: slideright 10s infinite;
+}
+@keyframes slideright{
+    from{
+        transform: translate(0%);
+
+    }
+    50%{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(0%);
+    }
+
+
+}
+
+/*animation plateforme*/
+
+
+.Pt1{
+    animation: slideright 10s infinite;
+}
+@keyframes slideright{
+    from{
+        transform: translate(50%);
+
+    }
+    30%{
+        transform: translate(0%);
+    }
+    60%{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(50%);
+    }
+}
+
+.Pt2{
+    animation: slideright 13s infinite;
+}
+@keyframes slideright{
+    from{
+        transform: translate(100%);
+
+    }
+    30%{
+        transform: translate(0%);
+    }
+    60%{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(50%);
+    }
+}
+
+.Pt3{
+    animation: slideright 14s infinite;
+}
+@keyframes slideright{
+    from{
+        transform: translate(20%);
+
+    }
+    30%{
+        transform: translate(0%);
+    }
+    60%{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(50%);
+    }
+}
+
+.Pt4{
+    animation: slideright 8s infinite;
+}
+@keyframes slideright{
+    from{
+        transform: translate(80%);
+
+    }
+    30%{
+        transform: translate(0%);
+    }
+    60%{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(50%);
+    }
+}
+
+.Pt5{
+    animation: slideright 5s infinite;
+}
+@keyframes slideright{
+    from{
+        transform: translate(35%);
+
+    }
+    30%{
+        transform: translate(0%);
+    }
+    60%{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(50%);
+    }
+}
+
+.perso{
+    animation: saut 4s infinite;
+}
+@keyframes saut{
+    from{
+        transform: translate(0%,0%);
+    }
+    20%{
+        transform: translate(0%,-220%);
+    }
+    40%{
+        transform: translate(0%,-425%);
+    }
+    60%{
+        transform: translate(0%,-625%);
+    }
+    80%{
+        transform: translate(0%,-835%);
+    }
+    100%{
+        transform: translate(0%,1100%);
+    }
+    to{
+        transform: translate(0%,0%);
+    }
+}
+
+
+
+
+/*crea zoom*/
+
+.cover:hover { 
+        transition: 1s ease-out 1ms;
+        transform: translate(15%,0%) scale(1.2);
+    }
+
+.coverback:hover { 
+        transition: 1s ease-out 1ms;
+        transform: translate(15%,0%) scale(1.2);
+    }
+
+.mockup:hover { 
+        transition: 1s ease-out 1ms;
+        transform: translate(15%,0%) scale(1.2);
+    }
